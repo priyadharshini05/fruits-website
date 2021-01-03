@@ -1,0 +1,224 @@
+@import url( https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css );
+
+body{
+    margin: 0%;
+    background: white;
+    font-family: 'lato', sans-serif;
+}
+.container{
+        width: 1200px;
+        margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-logo {
+       width: 220px;
+}
+
+.header-nav{
+       margin-top: 73px;
+       margin-left: 30px;
+}
+
+.header-nav a{
+       text-decoration-line: none;
+       color: black;
+       padding: 20px 20px ;
+       margin: 0 10px;
+       font-size: 18px;
+       border-radius: 30px;
+       
+
+}
+
+.header-nav a:hover {
+      background-color: rgba(255, 0, 0, 0.658);
+      color:green;
+      transform: 0.10s;
+           
+}
+ .header-icon{
+     margin-left: 30px;
+
+ }
+
+ .header-icon:hover{
+       color: rgb(65, 177, 65);
+ }
+
+ .image{
+     position: relative;
+     height: 700px;           ;
+ }
+ .image img{
+     width: 85%;
+     margin-left: 15%;
+     margin-right: 15%;
+     height: 700px;
+ }
+.img-txt{
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 35%;
+}
+
+.img-txt h1{
+       font-size:60px ;
+       font-style: unset;
+       
+}
+.img-txt h2{
+         font-size: 40px;
+         color:rgb(46, 39, 39);
+}
+.img-txt a {
+      text-decoration-line: none;
+      color:white;
+      font-size: 22px;
+      padding: 15px 15px;
+      border-radius: 25px;
+      background-color: rgba(255, 0, 0, 0.658);
+
+}
+
+.img-txt a:hover{
+    background-color: #6e7432;
+    transition: 0.5s;
+    
+}
+.au-box2{
+    flex: 0 0 70%;
+    margin: 80px auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+}
+.au-box2 .box-txt{
+    flex: 0 0 45%;
+    padding: 2.5%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.au-box2 .box-txt:hover{
+    box-shadow: 10px 10px 20px black;
+}
+.au-box2 .box-txt h3{
+    margin-top: 60px;
+    font-size: 28px;
+}
+.au-box2 .box-txt a{
+    font-size: 25px;
+    color: black;
+    margin-top: 60px;
+}
+.au-box2 .box-txt a:hover{
+        background-color: rgba(255, 0, 0, 0.438);
+        transition: 0.4s;
+}
+.au-box2 .box-img {
+            flex: 0 0 50%;
+}
+.au-box2 .box-img img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 15px ; 
+    border-bottom-right-radius: 15px;
+}
+.products{
+    background-image:
+    linear-gradient(rgb(194,137,240),rgba(194,137,240,0));
+}
+.products{
+    background-color: rgba(223, 213, 213, 0.925);
+    margin: 80px auto;
+}
+
+.slide{
+    width: 100%;
+}
+
+.slide .slide1{
+    width: 23%;
+    border-radius: 10px;
+    box-shadow: 10px  5px 20px rgba(0, 0, 0, 0.26);
+    background-color: #fff;
+    
+
+}
+.slide .slide1:hover{
+    margin-bottom:20px;
+    transition: 2s;
+    
+}
+.red:hover{
+    background-color: rgba(255, 0, 0, 0.514);
+    transition: 1s;
+}
+.orange:hover{
+    background-color: rgba(255, 166, 0, 0.637);
+    transition: 1s;
+}
+.violet:hover{
+    background-color: violet;
+    transition: 1s;
+}
+.yellow:hover{
+    background-color: rgba(255, 255, 0, 0.562);
+    transition: 1s;
+}
+.slide .slide1 .slide-img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.slide .slide1 .slide-img:hover{
+    background-color: rgba(255, 0, 0, 0.411);
+    transition: 0.3s;
+}
+.slide .slide1 .slide-img img{
+    width: 70%;
+    margin: 20px 15%;   
+}
+.slide .slide1 .slide-txt{
+    padding: 20px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    margin-top: 50px;
+
+}
+.footer-logo {
+    width: 30%;
+    margin: 50px 0;
+    color:rgb(240, 233, 233);
+}
+.footer-links h3::after{
+          display: block;
+          content: "";
+          background-color: white;
+          height: 1px;
+          width: 120px;
+}
+.footer-links{
+    width: 20%;
+    color: rgb(240, 233, 233);
+    margin-top: 50px 30px;
+    font-size: 15px;
+    margin-left: 35px;
+    
+    
+}
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 15px  20px;
+}
